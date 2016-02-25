@@ -1,0 +1,22 @@
+Input File: example.bam
+Filter File: filter.fai
+Common Prefix: HWI-ST933:227:C8C7YACXX:1:
+Output File: wo_secondary.sam
+Outputting secondary alignments :0
+Position in line: 0 Field: 0 Lines 20000
+filter read and tree constructed
+Input file has: 55446  lines.
+Output has: 24456 lines.
+Finished sucessfully!
+
+Input File: example.bam
+Filter File: filter.fai
+Common Prefix: HWI-ST933:227:C8C7YACXX:1:
+Output File: with_secondary.sam
+Outputting secondary alignments :1
+Position in line: 0 Field: 0 Lines 20000
+filter read and tree constructed
+Input file has: 55446  lines.
+Output has: 24456 lines.
+Finished sucessfully!
+
