@@ -18,8 +18,6 @@ their QNAME from a  `*.bam` or a  `*.sam` file, and produces
  
   Run 
   ```
-   mkdir bin
-   mkdir obj
    make
    ```
    If all works correctly, an executable should land under the folder `bin`.
