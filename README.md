@@ -13,7 +13,6 @@ their QNAME from a  `*.bam` or a  `*.sam` file, and produces
 
  * g++ (tested on versions 4.9.2 and 4.7.2).
  * samtools (tested on version 1.1).
- * boost  (tested on versions 1.55, 1.49).
 
 ##### Compilation 
  
