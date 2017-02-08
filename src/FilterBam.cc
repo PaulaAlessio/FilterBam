@@ -14,6 +14,7 @@ void printHelpDialog()
       "[FILTER_FILE] is either a tsv file with QNAMEs in the first field or a *bam file.\n"
       "A prefix with the common characters of QNAME should be provided.\n"
       "Output is printed to stdout by default, unless an outputfile is specified.\n"
+      " -h prints help dialog\n"
       " -i Input file. Required option\n"
       " -f Filter file. Either a *bam file or a tsv file with QNAME as first field. Required option.\n"
       " -p Prefix. String containing the common substring in QNAME. \n"
@@ -29,7 +30,7 @@ void printHelpDialog()
 
 
 int main(int argc, char *argv[]){
-    if (argc==1){
+    if (argc == 1 ){
         printHelpDialog();
     }
     std::string inputfile, filter, prefix;
